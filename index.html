@@ -1,22 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
-<meta charset="UTF-8">
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-</style>
-<script src=""></script>
+<html>
+<head>
+	<title>Index</title>
+	<style>
+		body {
+        background-color: #39b4d3;
+      }
+.button-row {
+  display: flex;
+  justify-content: center;
+}
 
+.button {
+  background-color: #0b4285;
+  border: 1px solid #333333;
+  color: #333333;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
 
-	<!--- Code above this line will not be displayed on the browser --> 
+.button:hover {
+  background-color: #200462;
+  color: #285ba9;
+}
 
-	<body>
-
-		<p> Hello world! </p>
+		.header {
+			background-color: #16718b;
+			color: #ffffff;
+			text-align: center;
+			padding: 10px;
+			position: relative;
+		}
+		.header:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-image: linear-gradient(to bottom right, rgb(152, 30, 30), rgb(22, 22, 191));
+			opacity: 0.8;
+			z-index: -1;
+		}
+		.header h1 {
+			margin: 0;
+			font-size: 5em;
+			text-shadow: 3px 3px #0c103f;
+		}
+		.header p {
+			font-size: 2em;
+		}
 		
-        <p>My name is Shreyak Mattagajasingh</p>
+	</style>
+</head>
+<body>
+	 
+	<div class="header">
+		<h1>Shreyak Mattagajasingh</h1>
+		<p>Some things about me</p>
+	</div>
+	<div>
+		<h2 style="color:rgb(219, 225, 230); font-family: 'Times New Roman', Times, serif;">Thats me!!!</h2>		
+	</div>
+	<div style="background-color: #ccc; width: 250px; height: 250px; border-radius: 100%; overflow: hidden; display: flex; justify-content: center; align-items: center">
+		<img src="me.jpg" alt="Image" style="width: 100%; height: auto; vertical-align: top">
+		
+	</div>
+  
+	<div>
+	<h2 style="color:rgb(12, 72, 109); font-family: 'Times New Roman', Times, serif;">Get to know me</h2>
+	
+		<li><a style="color: rgb(12, 72, 109); font-size: 120%; ">I am an international student from India, double majoring in Computer Science Major and Data Science</a><br>
+		<li><a style="color: rgb(12, 72, 109);font-size: 120%;">I am sophmore currently enrolled for 17 credits of Math and Computer Science</a><br>
+		<li><a style="color: rgb(12, 72, 109);font-size: 120%;">Passionate about Math and Computer Science:)</a><br>
+		
+	<h3 style="color:rgb(13, 77, 117); font-family: 'Times New Roman', Times, serif;font-size: 150%;">Education</h3>
+		
+		<li><a style="color: rgb(12, 72, 109);font-size: 120%;" href = "https://www.wisc.edu/">University of Wisconsin-Madison</a><br>
+		<li><a style="color: rgb(12, 72, 109);font-size: 120%;" href = "https://iitianspace.com/">PACE instituite</a><br>
+	    <li><a style="color: rgb(12, 72, 109);font-size: 120%;" href = "https://maneckjicooperschool.org/">Manecjki Cooper School</a><br>
 
-	</body>
-
+	</div>
+	<h2 style="color:rgb(13, 77, 117); font-family: 'Times New Roman', Times, serif;">Things I like to talk about :)</h2>
+	<div class="button-row" style="background-color:#16718b; background-blend-mode:darken; height: 100px;align-items: center;">
+		<section>
+		<nav>
+		<button style="font-family: cursive;border-width: 1px;border-radius:10%; border-color: #0c103f;"> <a href="Jee.html">JEE </a> </button>
+		<button style="font-family: cursive;border-width: 1px;border-radius:10%; border-color: #0c103f;"> <a href="">chess.html</a> </button>
+		<button style="font-family: cursive;border-width: 1px;border-radius:10%; border-color: #0c103f;"> <a href="">football.html</a> </button>
+		<button style="font-family: cursive;border-width: 1px;border-radius:10%; border-color: #0c103f;"> <a href="">Space.html</a> </button>
+		</nav>
+		</section>
+	</div>
+</body>
 </html>
