@@ -1,0 +1,231 @@
+body {
+	background-color: #39b4d3;
+  }
+.button-row {
+display: flex;
+justify-content: center;
+}
+
+.button {
+background-color: #0b4285;
+border: 1px solid #333333;
+color: #333333;
+padding: 10px 20px;
+margin: 10px;
+font-size: 16px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+background-color: #200462;
+color: #285ba9;
+}
+
+	.header {
+		background-color: #16718b;
+		color: #ffffff;
+		text-align: center;
+		padding: 10px;
+		position: relative;
+	}
+	.header:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: linear-gradient(to bottom right, rgb(152, 30, 30), rgb(22, 22, 191));
+		opacity: 0.8;
+		z-index: -1;
+	}
+	.header h1 {
+		margin: 0;
+		font-size: 5em;
+		text-shadow: 3px 3px #0c103f;
+	}
+	.header p {
+		font-size: 2em;
+	}
+
+	       
+.space.container img {
+	width: 100px; 
+	margin-top: 5px; 
+	}
+	
+	.space body {
+		border: #d4e2d7;
+		background-color: #000000;
+	  }
+	
+	.space {
+		background-color: #34333c;
+		color: #d4e2d7;
+		text-align: center;
+		padding: 10px;
+		position: relative;
+	}
+	.space:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: linear-gradient(to bottom right, rgb(152, 30, 30), rgb(22, 22, 191));
+		opacity: 0.8;
+		z-index: -1;
+	}
+	.space h1 {
+		margin: 0;
+		font-size: 5em;
+		text-shadow: 3px 3px #0c103f;
+	}
+	.space p {
+		font-size: 2em;
+	}
+	.math1 img {
+		width: 100px; 
+		margin-top: 5px; 
+		}
+		.math body {
+			border: #d4e2d7;
+			background-color: #e67d7d;
+		  }
+		
+		.math {
+			background-color: #b71114;
+			color: #d4e2d7;
+			text-align: center;
+			padding: 10px;
+			position: relative;
+		}
+		.math:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-image: linear-gradient(to bottom right, rgb(152, 30, 30), rgb(22, 22, 191));
+			opacity: 0.8;
+			z-index: -1;
+		}
+		.math h1 {
+			margin: 0;
+			font-size: 5em;
+			text-shadow: 3px 3px #0c103f;
+		}
+		.math p {
+			font-size: 2em;
+		}	
+
+        .container img {
+			width: 100px; 
+			margin-top: 5px; 
+		  }
+			.JEE body {
+				border: #d4e2d7;
+				background-color: #6d90a9;
+			  }
+		
+			.JEE .header {
+				background-color: #1c0e87;
+				color: #d4e2d7;
+				text-align: center;
+				padding: 10px;
+				position: relative;
+			}
+			.JEE :before {
+				content: "";
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				background-image: linear-gradient(to bottom right, rgb(152, 30, 30), rgb(22, 22, 191));
+				opacity: 0.8;
+				z-index: -1;
+			}
+			.JEE h1 {
+				margin: 0;
+				font-size: 5em;
+				text-shadow: 3px 3px #0c103f;
+			}
+			.JEE p {
+				font-size: 2em;
+			}
+.footballimg img {
+width: 100px; 
+margin-top: 5px; 
+}
+.football.body {
+    border: #d4e2d7;
+    background-color: #94c998;
+  }
+
+.football {
+    background-color: #299c21;
+    color: #d4e2d7;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+.football:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, rgb(152, 30, 30), rgb(22, 22, 191));
+    opacity: 0.8;
+    z-index: -1;
+}
+.football h1 {
+    margin: 0;
+    font-size: 5em;
+    text-shadow: 3px 3px #0c103f;
+}
+.football p {
+    font-size: 2em;
+}
+
+
+
+.container img {
+	width: 100px; 
+	margin-top: 5px; 
+	}
+	.chess body {
+		background-color: #a5e3b9;
+	  }
+	
+	.chess{
+		background-color: #229a3c;
+		color: #ffffff;
+		text-align: center;
+		padding: 10px;
+		position: relative;
+	}
+	.chess:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: linear-gradient(to bottom right, rgb(152, 30, 30), rgb(22, 22, 191));
+		opacity: 0.8;
+		z-index: -1;
+	}
+	.chess h1 {
+		margin: 0;
+		font-size: 5em;
+		text-shadow: 3px 3px #0c103f;
+	}
+	.chess p {
+		font-size: 2em;
+	}
